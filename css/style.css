@@ -1,21 +1,35 @@
-/* css/style.css */
+/* =========================
+   Base
+========================= */
+
 body {
   margin: 0;
   font-family: "Noto Serif TC", "Songti TC", serif;
-  background-color: #f2f4f7;
+  background-color: #f0f2f6;
   color: #2e3440;
   line-height: 1.9;
 }
+
+
+/* =========================
+   Layout
+========================= */
 
 .container {
   max-width: 680px;
   margin: 60px auto;
   padding: 40px;
-  background: #ffffff;
+  background-color: #ffffff;
   box-shadow: 0 10px 30px rgba(0, 0, 0, 0.08);
 }
 
-h1, h2 {
+
+/* =========================
+   Typography
+========================= */
+
+h1,
+h2 {
   color: #3b4f6b;
   font-weight: normal;
 }
@@ -26,6 +40,16 @@ h1, h2 {
   margin-bottom: 50px;
 }
 
+p {
+  margin-bottom: 1.6em;
+  line-height: 1.8;
+}
+
+
+/* =========================
+   Links
+========================= */
+
 a {
   color: #4c6a92;
   text-decoration: none;
@@ -35,11 +59,10 @@ a:hover {
   text-decoration: underline;
 }
 
-p {
-  line-height: 1.8;
-  margin-bottom: 1.6em;
-}
 
+/* =========================
+   Block Elements
+========================= */
 
 blockquote {
   margin: 40px 0;
@@ -48,14 +71,14 @@ blockquote {
   color: #4a5568;
   font-style: italic;
 }
-  
-body {
-  background-color: #f0f2f6;
-}
 
-  .container > p:last-child {
+
+/* =========================
+   Footer / Last Paragraph
+========================= */
+
+.container p:last-of-type {
   margin-top: 50px;
   font-size: 0.9em;
   color: #6b7280;
 }
-
