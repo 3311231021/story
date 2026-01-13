@@ -91,11 +91,11 @@ p {
    首頁 (index.html) li 間距
 ========================= */
 .index-page .post-list li:first-child {
-  margin-bottom: 2rem; /* 第一篇和第二篇之間空白，讓兩個連結明顯分開 */
+  margin-bottom: 5rem; /* 第一篇和第二篇之間空白，讓兩個連結明顯分開 */
 }
 
 .index-page .post-list li + li {
-  margin-top: 1.5rem; /* 第二篇之後文章間距統一 */
+  margin-top: 5rem; /* 第二篇之後文章間距統一 */
 }
 
 /* =========================
