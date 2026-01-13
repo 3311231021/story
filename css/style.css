@@ -95,7 +95,7 @@ p {
 }
 
 .index-page .post-list li + li {
-  margin-top: 0.8rem; /* 之後文章之間的統一間距 */
+  margin-top: 0.8rem; /* 第二篇以後文章間距統一 */
 }
 
 /* =========================
@@ -115,10 +115,6 @@ article a {
 article a:hover {
   text-decoration: underline;
   text-underline-offset: 3px;
-}
-
-.index-page .post-list li:first-child {
-  margin-bottom: 1.2rem;
 }
 
 /* =========================
@@ -146,3 +142,4 @@ article footer {
 article footer a {
   color: #6b7280;
 }
+
