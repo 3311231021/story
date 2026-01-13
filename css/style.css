@@ -1,4 +1,45 @@
 /* =========================
+   Post List 通用樣式
+========================= */
+.post-list {
+  list-style: none;
+  padding-left: 0;
+  margin-top: 2em;
+}
+
+/* 文章頁 & 未來列表頁 li 沒特別間距 */
+.article-page .post-list li,
+.post-list li {
+  margin: 0;
+}
+
+/* =========================
+   首頁 (index.html) li 間距
+========================= */
+/* 第一篇和第二篇之間留白 */
+.index-page .post-list li:first-child {
+  margin-bottom: 1.2rem; /* 可調整大小 */
+}
+
+/* 之後新增的文章可以每篇統一間距 */
+.index-page .post-list li + li {
+  margin-top: 0.8rem; /* 第二篇以後每篇文章之間間距 */
+}
+
+/* =========================
+   Post List 連結樣式
+========================= */
+.post-list a {
+  color: #4b638f;
+  text-decoration: none;
+}
+
+.post-list a:hover {
+  text-decoration: underline;
+  text-underline-offset: 4px;
+}
+
+/* =========================
    Base / Atmosphere
    深夜、霧感、安靜
 ========================= */
