@@ -1,12 +1,13 @@
 /* =========================
-   Base
+   Base / Atmosphere
+   深夜、霧感、安靜
 ========================= */
 
 body {
   margin: 0;
   font-family: "Noto Serif TC", "Songti TC", serif;
-  background-color: #f0f2f6;
-  color: #2e3440;
+  background-color: #eef1f5;
+  color: #303846;
   line-height: 1.9;
 }
 
@@ -17,32 +18,60 @@ body {
 
 .container {
   max-width: 680px;
-  margin: 60px auto;
-  padding: 40px;
+  margin: 70px auto;
+  padding: 48px 44px;
   background-color: #ffffff;
-  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.08);
+  box-shadow: 0 12px 32px rgba(46, 52, 64, 0.08);
 }
 
 
 /* =========================
-   Typography
+   Site Title
+========================= */
+
+.site-title {
+  text-align: center;
+  letter-spacing: 0.25em;
+  margin-bottom: 56px;
+}
+
+.site-title h1 {
+  margin: 0;
+  font-size: 2rem;
+  font-weight: normal;
+  color: #434c6d;
+}
+
+.site-title p {
+  margin-top: 12px;
+  font-size: 0.95em;
+  color: #6b7280;
+}
+
+
+/* =========================
+   Headings
 ========================= */
 
 h1,
 h2 {
-  color: #3b4f6b;
   font-weight: normal;
+  color: #434c6d;
 }
 
-.site-title {
-  text-align: center;
-  letter-spacing: 0.2em;
-  margin-bottom: 50px;
+h2 {
+  margin-top: 3em;
+  margin-bottom: 1em;
 }
+
+
+/* =========================
+   Paragraphs
+========================= */
 
 p {
-  margin-bottom: 1.6em;
-  line-height: 1.8;
+  margin-bottom: 1.8em;
+  line-height: 1.85;
 }
 
 
@@ -51,34 +80,36 @@ p {
 ========================= */
 
 a {
-  color: #4c6a92;
+  color: #5a78a8;
   text-decoration: none;
 }
 
 a:hover {
   text-decoration: underline;
+  text-underline-offset: 3px;
 }
 
 
 /* =========================
-   Block Elements
+   Blockquote
+   心裡浮現的那一句
 ========================= */
 
 blockquote {
-  margin: 40px 0;
-  padding-left: 20px;
-  border-left: 4px solid #d0d7e2;
-  color: #4a5568;
+  margin: 48px 0;
+  padding-left: 22px;
+  border-left: 4px solid #c7cfdf;
+  color: #505a6b;
   font-style: italic;
 }
 
 
 /* =========================
-   Footer / Last Paragraph
+   Final Paragraph / Footer
 ========================= */
 
 .container p:last-of-type {
-  margin-top: 50px;
+  margin-top: 56px;
   font-size: 0.9em;
   color: #6b7280;
 }
