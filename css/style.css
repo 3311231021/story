@@ -34,3 +34,28 @@ a {
 a:hover {
   text-decoration: underline;
 }
+
+p {
+  line-height: 1.8;
+  margin-bottom: 1.6em;
+}
+
+
+blockquote {
+  margin: 40px 0;
+  padding-left: 20px;
+  border-left: 4px solid #d0d7e2;
+  color: #4a5568;
+  font-style: italic;
+}
+  
+body {
+  background-color: #f0f2f6;
+}
+
+  .container > p:last-child {
+  margin-top: 50px;
+  font-size: 0.9em;
+  color: #6b7280;
+}
+
