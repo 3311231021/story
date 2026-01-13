@@ -19,33 +19,33 @@ body {
 .container {
   max-width: 680px;
   margin: 70px auto;
-  padding: 48px 44px;
+  padding: 56px 48px;
   background-color: #ffffff;
   box-shadow: 0 12px 32px rgba(46, 52, 64, 0.08);
 }
 
 
 /* =========================
-   Site Title
+   Header / Site Intro
 ========================= */
 
 .site-title {
   text-align: center;
   letter-spacing: 0.25em;
-  margin-bottom: 56px;
+  margin-bottom: 64px;
 }
 
-.site-title h1 {
-  margin: 0;
+.site-title {
   font-size: 2rem;
   font-weight: normal;
   color: #434c6d;
 }
 
-.site-title p {
-  margin-top: 12px;
+.site-intro {
+  margin-top: 20px;
   font-size: 0.95em;
   color: #6b7280;
+  letter-spacing: 0.05em;
 }
 
 
@@ -59,9 +59,16 @@ h2 {
   color: #434c6d;
 }
 
+article h1 {
+  margin-bottom: 2.2em;
+  text-align: center;
+  letter-spacing: 0.15em;
+}
+
 h2 {
   margin-top: 3em;
   margin-bottom: 1em;
+  font-size: 1.2rem;
 }
 
 
@@ -70,21 +77,45 @@ h2 {
 ========================= */
 
 p {
-  margin-bottom: 1.8em;
+  margin-bottom: 1.9em;
   line-height: 1.85;
 }
 
 
 /* =========================
-   Links
+   Post List (首頁用)
 ========================= */
 
-a {
-  color: #5a78a8;
+.post-list {
+  list-style: none;
+  padding-left: 0;
+  margin-top: 2em;
+}
+
+.post-list li {
+  margin: 1.2em 0;
+}
+
+.post-list a {
+  color: #4b638f;
   text-decoration: none;
 }
 
-a:hover {
+.post-list a:hover {
+  text-decoration: underline;
+  text-underline-offset: 4px;
+}
+
+
+/* =========================
+   Links (文章內)
+========================= */
+
+article a {
+  color: #5a78a8;
+}
+
+article a:hover {
   text-decoration: underline;
   text-underline-offset: 3px;
 }
@@ -96,8 +127,8 @@ a:hover {
 ========================= */
 
 blockquote {
-  margin: 48px 0;
-  padding-left: 22px;
+  margin: 56px 0;
+  padding-left: 24px;
   border-left: 4px solid #c7cfdf;
   color: #505a6b;
   font-style: italic;
@@ -105,11 +136,16 @@ blockquote {
 
 
 /* =========================
-   Final Paragraph / Footer
+   Footer / Meta
 ========================= */
 
-.container p:last-of-type {
-  margin-top: 56px;
+article footer {
+  margin-top: 72px;
   font-size: 0.9em;
+  color: #6b7280;
+  text-align: center;
+}
+
+article footer a {
   color: #6b7280;
 }
