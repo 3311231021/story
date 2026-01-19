@@ -141,3 +141,18 @@ article footer {
 article footer a {
   color: #6b7280;
 }
+
+.post-list {
+  list-style: none;   /* 去掉圓點（如果你想要） */
+  padding: 0;
+  margin: 0;
+}
+
+.post-list li {
+  margin-bottom: 16px;   /* 控制每一篇之間的距離 */
+}
+
+.post-list a {
+  text-decoration: none;
+  font-size: 18px;
+}
